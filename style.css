@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    outline: none;
+}
+
+body{
+    background: #8A51FC;
+}
+
+.imagem-logo{
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+main{
+    border-radius: 20px;
+    background: #F4F4F4;
+    width: 375px;
+    padding: 44px 24px 23px;
+    margin: 15px auto;
+}
+
+label{
+    color: #777;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+select, input{
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    appearance: none;
+    cursor: pointer;
+    padding-left: 12px;
+    margin-bottom: 24px;
+}
+
+button{
+
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    height: 48px;
+    width: 100%;
+    border-radius: 5px;
+    background: #772FD3;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+button:active{
+    opacity: .5;
+}
+
+section{
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    width: 327px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 32px;
+    padding: 12px;
+}
+
+.imagem-seta{
+    margin: 15px 0;
+}
+
+.caixa-moedas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.moeda{
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.valor-a-converter, .valor-convertido{
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+
+
+
